@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.LoginController">
+   <children>
+      <fx:include source="../../../../proyecto1/login.fxml" />
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #EEFCFF;">
+         <left>
+            <AnchorPane prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: #0162E0;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="218.0" fitWidth="217.0" layoutX="42.0" layoutY="92.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/tiket.png" />
+                     </image>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </left>
+         <right>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="317.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField layoutX="84.0" layoutY="128.0" prefHeight="34.0" prefWidth="209.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+                  <PasswordField layoutX="84.0" layoutY="200.0" prefHeight="34.0" prefWidth="209.0" promptText="password" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" />
+                  <ImageView fitHeight="44.0" fitWidth="46.0" layoutX="32.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="44.0" fitWidth="46.0" layoutX="34.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/password.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="27.0" fitWidth="35.0" layoutX="42.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/usuarios.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="62.0" layoutY="274.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="97.0" style="-fx-background-color: #1C7ED9;" text="Usuarios" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="180.0" layoutY="275.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="121.0" style="-fx-background-color: #1C7ED9;" text="Administrador" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="43.0" fitWidth="45.0" layoutX="153.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/usuario.png" />
+                     </image>
+                  </ImageView>
+                  <Hyperlink layoutX="88.0" layoutY="332.0" text="Forgot your password?">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Hyperlink>
+                  <Text fill="#1991d7" fontSmoothingType="LCD" layoutX="146.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Login" />
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>

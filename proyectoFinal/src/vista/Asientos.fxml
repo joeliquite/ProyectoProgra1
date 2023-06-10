@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.AsientosController">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #EEFCFF;">
+         <top>
+            <AnchorPane prefHeight="107.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="89.0" fitWidth="407.0" layoutX="382.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/titulo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </top>
+         <right>
+            <AnchorPane prefHeight="725.0" prefWidth="1200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <RadioButton fx:id="G1" layoutX="30.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G2" layoutX="57.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G3" layoutX="84.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G4" layoutX="111.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G5" layoutX="138.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G6" layoutX="165.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G7" layoutX="192.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G10" layoutX="273.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G9" layoutX="246.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G8" layoutX="219.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton layoutX="525.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="552.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="498.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="471.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="444.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="417.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="390.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="363.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="336.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="633.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="660.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="687.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="714.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="741.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="768.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="849.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="822.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="795.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="G3" layoutX="1097.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G2" layoutX="1124.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G1" layoutX="1151.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G4" layoutX="1070.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G5" layoutX="1043.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G6" layoutX="1016.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G7" layoutX="989.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G8" layoutX="962.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G9" layoutX="935.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="G10" layoutX="908.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F7" layoutX="219.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F8" layoutX="246.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F9" layoutX="273.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F6" layoutX="192.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F5" layoutX="165.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F4" layoutX="138.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F3" layoutX="111.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F2" layoutX="84.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F1" layoutX="57.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="E1" layoutX="84.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="E2" layoutX="111.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="E3" layoutX="138.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="E4" layoutX="165.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="E5" layoutX="192.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="E8" layoutX="273.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="E7" layoutX="246.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="E6" layoutX="219.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="D5" layoutX="219.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="D6" layoutX="246.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="D7" layoutX="273.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="D4" layoutX="192.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="D3" layoutX="165.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="D2" layoutX="138.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="D1" layoutX="111.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="C1" layoutX="138.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="C2" layoutX="165.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="C3" layoutX="192.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="C6" layoutX="273.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="C5" layoutX="246.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="C4" layoutX="219.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="B3" layoutX="219.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="B4" layoutX="246.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="B5" layoutX="273.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="B2" layoutX="192.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="B1" layoutX="165.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="A1" layoutX="192.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="A4" layoutX="273.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="A3" layoutX="246.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="A2" layoutX="219.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="795.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="822.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="849.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="768.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="741.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="714.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="687.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="660.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="633.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="336.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="363.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="390.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="417.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="444.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="471.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="498.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="552.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="525.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="525.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="552.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="498.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="471.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="444.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="417.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="390.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="363.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="336.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="633.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="660.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="687.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="714.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="741.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="768.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="849.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="822.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="795.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="795.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="822.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="849.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="768.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="741.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="714.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="687.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="660.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="633.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="336.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="363.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="390.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="417.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="444.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="471.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="498.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="552.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="525.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="525.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="552.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="498.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="471.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="444.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="417.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="390.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="363.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="336.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="633.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="660.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="687.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="714.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="741.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="768.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="849.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="822.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="795.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="795.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="822.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="849.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="768.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="741.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="714.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="687.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="660.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="633.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="336.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="363.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="390.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="417.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="444.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="471.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="498.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="552.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="525.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="525.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="552.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="498.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="471.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="444.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="417.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="390.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="363.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="336.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="633.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="660.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="687.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="714.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="741.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="768.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="849.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="822.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="795.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton fx:id="A" layoutX="989.0" layoutY="77.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="A2" layoutX="962.0" layoutY="77.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="A3" layoutX="935.0" layoutY="77.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="A4" layoutX="908.0" layoutY="77.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="B5" layoutX="908.0" layoutY="109.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="B4" layoutX="935.0" layoutY="109.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="B3" layoutX="962.0" layoutY="109.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="B2" layoutX="989.0" layoutY="109.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="B1" layoutX="1016.0" layoutY="109.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="C1" layoutX="1043.0" layoutY="138.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="C2" layoutX="1016.0" layoutY="138.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="C3" layoutX="989.0" layoutY="138.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="C4" layoutX="962.0" layoutY="138.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="C5" layoutX="935.0" layoutY="138.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="C6" layoutX="908.0" layoutY="138.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="D7" layoutX="908.0" layoutY="171.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="D6" layoutX="935.0" layoutY="171.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="D5" layoutX="962.0" layoutY="171.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="D4" layoutX="989.0" layoutY="171.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="D3" layoutX="1016.0" layoutY="171.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="V2" layoutX="1043.0" layoutY="171.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="D1" layoutX="1070.0" layoutY="171.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton fx:id="E2" layoutX="1070.0" layoutY="202.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="E1" layoutX="1097.0" layoutY="202.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="E3" layoutX="1043.0" layoutY="202.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="E5" layoutX="989.0" layoutY="202.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="E6" layoutX="962.0" layoutY="202.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="E7" layoutX="935.0" layoutY="202.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="E8" layoutX="908.0" layoutY="202.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F9" layoutX="908.0" layoutY="229.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F8" layoutX="935.0" layoutY="229.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F7" layoutX="962.0" layoutY="229.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F6" layoutX="989.0" layoutY="229.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F5" layoutX="1016.0" layoutY="229.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F4" layoutX="1043.0" layoutY="229.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F1" layoutX="1124.0" layoutY="229.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F2" layoutX="1097.0" layoutY="229.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="F3" layoutX="1070.0" layoutY="229.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="E4" layoutX="1016.0" layoutY="202.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #37C95A;" textFill="#c31616" />
+                  <RadioButton fx:id="H2" layoutX="57.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H3" layoutX="84.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H4" layoutX="111.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H5" layoutX="138.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H6" layoutX="165.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H7" layoutX="192.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H8" layoutX="219.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H10" layoutX="273.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H9" layoutX="246.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I9" layoutX="246.0" layoutY="338.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I10" layoutX="273.0" layoutY="338.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I8" layoutX="219.0" layoutY="338.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I7" layoutX="192.0" layoutY="338.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I6" layoutX="165.0" layoutY="338.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I5" layoutX="138.0" layoutY="338.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I4" layoutX="111.0" layoutY="338.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I3" layoutX="84.0" layoutY="338.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I2" layoutX="57.0" layoutY="338.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J2" layoutX="57.0" layoutY="367.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J3" layoutX="84.0" layoutY="367.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J4" layoutX="111.0" layoutY="367.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J5" layoutX="138.0" layoutY="367.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J6" layoutX="165.0" layoutY="367.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J7" layoutX="192.0" layoutY="367.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J8" layoutX="219.0" layoutY="367.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J10" layoutX="273.0" layoutY="367.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J9" layoutX="246.0" layoutY="367.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K9" layoutX="246.0" layoutY="400.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K10" layoutX="273.0" layoutY="400.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K8" layoutX="219.0" layoutY="400.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K7" layoutX="192.0" layoutY="400.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K6" layoutX="165.0" layoutY="400.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K5" layoutX="138.0" layoutY="400.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K4" layoutX="111.0" layoutY="400.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K3" layoutX="84.0" layoutY="400.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K2" layoutX="57.0" layoutY="400.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L2" layoutX="57.0" layoutY="431.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L3" layoutX="84.0" layoutY="431.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L4" layoutX="111.0" layoutY="431.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L5" layoutX="138.0" layoutY="431.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L6" layoutX="165.0" layoutY="431.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L7" layoutX="192.0" layoutY="431.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L8" layoutX="219.0" layoutY="431.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L10" layoutX="273.0" layoutY="431.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L9" layoutX="246.0" layoutY="431.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M9" layoutX="246.0" layoutY="458.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M10" layoutX="273.0" layoutY="458.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M8" layoutX="219.0" layoutY="458.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M7" layoutX="192.0" layoutY="458.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M6" layoutX="165.0" layoutY="458.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M5" layoutX="138.0" layoutY="458.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M4" layoutX="111.0" layoutY="458.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M3" layoutX="84.0" layoutY="458.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M2" layoutX="57.0" layoutY="458.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N2" layoutX="57.0" layoutY="489.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N3" layoutX="84.0" layoutY="489.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N4" layoutX="111.0" layoutY="489.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N5" layoutX="138.0" layoutY="489.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N6" layoutX="165.0" layoutY="489.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N7" layoutX="192.0" layoutY="489.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N8" layoutX="219.0" layoutY="489.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N10" layoutX="273.0" layoutY="489.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N9" layoutX="246.0" layoutY="489.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H1" layoutX="30.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I1" layoutX="30.0" layoutY="338.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J1" layoutX="30.0" layoutY="367.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="k1" layoutX="30.0" layoutY="400.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L1" layoutX="30.0" layoutY="431.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M1" layoutX="30.0" layoutY="458.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N1" layoutX="30.0" layoutY="489.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O1" layoutX="30.0" layoutY="519.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O9" layoutX="246.0" layoutY="519.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O10" layoutX="273.0" layoutY="519.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O8" layoutX="219.0" layoutY="519.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O7" layoutX="192.0" layoutY="519.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O6" layoutX="165.0" layoutY="519.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O5" layoutX="138.0" layoutY="519.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O4" layoutX="111.0" layoutY="519.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O3" layoutX="84.0" layoutY="519.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O2" layoutX="57.0" layoutY="519.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="P1" layoutX="111.0" layoutY="546.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="P2" layoutX="138.0" layoutY="546.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="P3" layoutX="165.0" layoutY="546.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="P4" layoutX="192.0" layoutY="546.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="P5" layoutX="219.0" layoutY="546.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="P7" layoutX="273.0" layoutY="546.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="P6" layoutX="246.0" layoutY="546.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="525.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="552.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="498.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="471.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="444.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="417.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="390.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="363.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="336.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="336.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="363.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="390.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="417.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="444.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="471.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="498.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="552.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="525.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="525.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="552.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="498.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="471.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="444.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="417.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="390.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="363.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="336.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="336.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="363.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="390.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="417.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="444.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="471.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="498.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="552.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="525.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="525.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="552.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="498.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="471.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="444.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="417.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="390.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="363.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="336.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="336.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="363.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="390.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="417.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="444.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="471.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="498.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="552.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="525.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="525.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="552.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="498.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="471.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="444.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="417.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="390.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="363.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="660.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="687.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="714.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="741.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="768.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="795.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="849.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="822.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="822.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="849.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="795.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="768.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="741.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="714.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="687.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="660.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="633.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="633.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="660.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="687.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="714.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="741.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="768.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="795.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="849.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="822.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="822.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="849.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="795.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="768.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="741.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="714.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="687.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="660.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="633.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="633.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="660.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="687.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="714.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="741.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="768.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="795.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="849.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="822.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="822.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="849.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="795.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="768.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="741.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="714.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="687.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="660.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="633.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="633.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="660.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="687.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="714.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="741.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="768.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="795.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="849.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="822.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="606.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="606.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="606.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="606.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="606.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="606.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="606.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="P1" layoutX="1070.0" layoutY="551.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="P2" layoutX="1043.0" layoutY="551.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="21.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="P3" layoutX="1016.0" layoutY="551.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="P4" layoutX="989.0" layoutY="551.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O9" layoutX="935.0" layoutY="524.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O8" layoutX="962.0" layoutY="524.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O7" layoutX="989.0" layoutY="524.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O6" layoutX="1016.0" layoutY="524.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O5" layoutX="1043.0" layoutY="524.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O4" layoutX="1070.0" layoutY="524.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O3" layoutX="1097.0" layoutY="524.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O1" layoutX="1151.0" layoutY="524.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O2" layoutX="1124.0" layoutY="524.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="O10" layoutX="908.0" layoutY="524.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N10" layoutX="908.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M10" layoutX="908.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L10" layoutX="908.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K10" layoutX="908.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J10" layoutX="908.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I10" layoutX="908.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H10" layoutX="908.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N2" layoutX="1124.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N1" layoutX="1151.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N3" layoutX="1097.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N4" layoutX="1070.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N5" layoutX="1043.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N6" layoutX="1016.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N7" layoutX="989.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N8" layoutX="962.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="N9" layoutX="935.0" layoutY="494.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M9" layoutX="935.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M8" layoutX="962.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M7" layoutX="989.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M6" layoutX="1016.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M5" layoutX="1043.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M4" layoutX="1070.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M3" layoutX="1097.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M1" layoutX="1151.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="M2" layoutX="1124.0" layoutY="463.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L2" layoutX="1124.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L1" layoutX="1151.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L3" layoutX="1097.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L4" layoutX="1070.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L5" layoutX="1043.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L6" layoutX="1016.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L7" layoutX="989.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L8" layoutX="962.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="L9" layoutX="935.0" layoutY="436.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K9" layoutX="935.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K8" layoutX="962.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K7" layoutX="989.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K6" layoutX="1016.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K5" layoutX="1043.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K4" layoutX="1070.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K3" layoutX="1097.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K1" layoutX="1151.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="K2" layoutX="1124.0" layoutY="405.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J2" layoutX="1124.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J1" layoutX="1151.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J3" layoutX="1097.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J4" layoutX="1070.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J5" layoutX="1043.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J6" layoutX="1016.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J7" layoutX="989.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J8" layoutX="962.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="J9" layoutX="935.0" layoutY="372.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I9" layoutX="935.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I8" layoutX="962.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I7" layoutX="989.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I6" layoutX="1016.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I5" layoutX="1043.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I4" layoutX="1070.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I3" layoutX="1097.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I1" layoutX="1151.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="I2" layoutX="1124.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H2" layoutX="1124.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H1" layoutX="1151.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H3" layoutX="1097.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H4" layoutX="1070.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H5" layoutX="1043.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H6" layoutX="1016.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H7" layoutX="989.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H8" layoutX="962.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="336.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="633.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="P7" layoutX="908.0" layoutY="550.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="P6" layoutX="935.0" layoutY="550.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="P5" layoutX="962.0" layoutY="550.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton fx:id="H9" layoutX="935.0" layoutY="311.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #1476EC;" textFill="#c31616" />
+                  <RadioButton layoutX="606.0" layoutY="81.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="606.0" layoutY="113.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FF2B01;" textFill="#c31616" />
+                  <RadioButton layoutX="606.0" layoutY="142.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="606.0" layoutY="175.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="606.0" layoutY="206.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="606.0" layoutY="233.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+                  <RadioButton layoutX="606.0" layoutY="264.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="0.0" style="-fx-background-color: #FFFF00;" textFill="#c31616" />
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>

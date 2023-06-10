@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="273.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fx:id="titular" fill="#23a3da" layoutX="20.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TItular de la Tarjeta">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <TextField layoutX="14.0" layoutY="154.0" prefHeight="33.0" prefWidth="251.0" promptText="Joel Iquite" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px4;" />
+            <Text fx:id="titular1" fill="#23a3da" layoutX="14.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Número de Tarjeta">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <TextField layoutX="14.0" layoutY="227.0" prefHeight="33.0" prefWidth="196.0" promptText="0000-0000-0000-0000" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px4;" />
+            <Text fx:id="titular11" fill="#23a3da" layoutX="247.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CVV" wrappingWidth="52.5625">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <TextField layoutX="242.0" layoutY="227.0" prefHeight="33.0" prefWidth="63.0" promptText="000" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px4;" />
+            <Text fx:id="titular12" fill="#23a3da" layoutX="14.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha de Expiración">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <DatePicker layoutX="14.0" layoutY="292.0" />
+            <Button layoutX="82.0" layoutY="341.0" mnemonicParsing="false" style="-fx-background-color: #1C7ED9;" text="Realizar Pago" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="75.0" fitWidth="265.0" layoutX="19.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: pointer;">
+               <image>
+                  <Image url="@../imagenes/banner.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="304.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="383.0" fitWidth="259.0" layoutX="17.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/tarjetas2.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

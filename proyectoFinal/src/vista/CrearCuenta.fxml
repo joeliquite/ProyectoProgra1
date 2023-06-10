@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.CrearCuentaController">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #EEFCFF;">
+         <left>
+            <AnchorPane prefHeight="400.0" prefWidth="254.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="400.0" fitWidth="241.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/Imagen3.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="223.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+                     <font>
+                        <Font name="Arial Narrow" size="15.0" />
+                     </font>
+                  </Text>
+                  <TextField layoutX="219.0" layoutY="111.0" promptText="Name" />
+                  <Text layoutX="222.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail">
+                     <font>
+                        <Font name="Arial Narrow" size="15.0" />
+                     </font>
+                  </Text>
+                  <TextField layoutX="219.0" layoutY="160.0" prefHeight="25.0" prefWidth="337.0" promptText="\@ejemplo.com" />
+                  <Text layoutX="219.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Crea un cuenta">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="222.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+                     <font>
+                        <Font name="Arial Narrow" size="15.0" />
+                     </font>
+                  </Text>
+                  <PasswordField layoutX="219.0" layoutY="231.0" prefHeight="25.0" prefWidth="337.0" promptText="password" />
+                  <TextField layoutX="398.0" layoutY="111.0" promptText="Last name" />
+                  <Text layoutX="398.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last name">
+                     <font>
+                        <Font name="Arial Narrow" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="222.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al continuar con las siguiente página, aceptas los términos y comprendes que la información se usará  como se describe en nuestra politica de privacidad." wrappingWidth="320.724609375" />
+                  <Button layoutX="472.0" layoutY="333.0" mnemonicParsing="false" style="-fx-background-color: #0750E8;" text="siguiente" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="227.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Tienes una cuenta ?" wrappingWidth="320.724609375">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Hyperlink layoutX="344.0" layoutY="40.0" text="Iniciar Sesión">
+                     <font>
+                        <Font name="Arial Bold Italic" size="12.0" />
+                     </font>
+                  </Hyperlink>
+               </children>
+            </AnchorPane>
+         </left>
+         <right>
+            <AnchorPane prefHeight="400.0" prefWidth="364.0" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>

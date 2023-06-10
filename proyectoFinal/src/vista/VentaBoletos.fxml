@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.VentaBoletosController">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #EEFCFF;">
+         <bottom>
+            <AnchorPane prefHeight="278.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TableView layoutX="20.0" prefHeight="200.0" prefWidth="553.0">
+                    <columns>
+                      <TableColumn prefWidth="101.0" text="Fecha" />
+                      <TableColumn fx:id="tablaBoletos" prefWidth="280.0" text="Detalles" />
+                        <TableColumn prefWidth="136.0" text="Locación" />
+                    </columns>
+                  </TableView>
+                  <Button fx:id="buscarBoletos" layoutX="458.0" layoutY="220.0" mnemonicParsing="false" style="-fx-background-color: #1C7ED9;" text="Buscar Boletos" textFill="#fcfcfc">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </bottom>
+         <top>
+            <AnchorPane prefHeight="122.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <DatePicker fx:id="fechaInicio" layoutX="24.0" layoutY="30.0" prefHeight="31.0" prefWidth="208.0" promptText="Fecha Inicio" />
+                  <DatePicker fx:id="fechaFinal" layoutX="317.0" layoutY="30.0" promptText="Fecha final" />
+                  <ImageView fitHeight="29.0" fitWidth="35.0" layoutX="241.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/cale.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="29.0" fitWidth="35.0" layoutX="544.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/cale.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>
